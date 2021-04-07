@@ -1,0 +1,32 @@
+/* checkbox */
+
+.checkbox {
+  display: none;
+  &:checked + label {
+    background-color: $grey;
+    &::after {
+      left: 19px;
+    }
+  }
+
+  &-lable {
+    background-color: $orange;
+    width: 40px;
+    height: 24px;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+    &::after {
+      content: "";
+      width: 18px;
+      height: 18px;
+      background-color: #fff;
+      display: block;
+      border-radius: 50%;
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      transition: all 0.5s;
+    }
+  }
+}

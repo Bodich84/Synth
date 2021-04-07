@@ -1,0 +1,28 @@
+.context-menu {
+  min-width: 170px;
+  background: #fffffff7;
+  border-radius: 8px;
+  padding: 24px 0;
+  position: absolute;
+  z-index: 10;
+  top: 36px;
+  left: 0;
+  display: none;
+  box-shadow: $boxShadow;
+  &--active {
+    display: block;
+  }
+  &__link {
+    padding: 8px 24px;
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover {
+      background-color: $light_grey;
+    }
+  }
+  &__icon {
+    margin-right: 16px;
+  }
+}

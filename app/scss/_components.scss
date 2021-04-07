@@ -1,0 +1,29 @@
+/* btn */
+
+.btn {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* add */
+
+.add {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  color: #fff;
+  font-size: 34px;
+  border-radius: 50%;
+  bottom: -32px;
+  right: 16px;
+  background: $link_color;
+  background: linear-gradient(135deg, #ff974f 0%, #e32c75 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+

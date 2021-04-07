@@ -1,0 +1,42 @@
+@import "reset";
+@import "variable";
+@import "fonts";
+@import "app-panel";
+@import "components";
+@import "context-menu";
+@import "icons";
+@import "checkbox";
+@import "header";
+@import "menu";
+@import "user";
+@import "follow";
+@import "access";
+@import "cards";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: $dark_gray;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: #f7f9fc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 16px;
+  position: relative;
+}
+
+.sidebar {
+  width: 30%;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+
+.main {
+  display: flex;
+}
+
+@import "media";

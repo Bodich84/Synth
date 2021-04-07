@@ -1,0 +1,42 @@
+.menu {
+  display: flex;
+  margin-top: 14px;
+  &__item {
+    text-transform: uppercase;
+    margin-right: 36px;
+  }
+  &__link {
+    position: relative;
+    color: $dark_gray;
+    opacity: 0.6;
+    text-decoration: none;
+    padding-bottom: 16px;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      height: 4px;
+      width: 100%;
+      height: 0;
+      background-color: $link_color;
+      background-color: linear-gradient(135deg, #ff974f 0%, #e32c75 100%);
+      left: 0;
+      
+      transition: all 0.2s;
+    }
+    &--active {
+      opacity: 1;
+      &::after {
+        height: 4px;
+      }
+    }
+    &:hover {
+      &::after {
+        height: 4px;
+      }
+    }
+  }
+}

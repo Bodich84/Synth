@@ -1,0 +1,255 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Synth</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <div class="header__panel">
+          <div class="header__logo">
+            <img src="img/logo.svg" alt="Synth" />
+          </div>
+
+          <ul class="app-panel">
+            <li class="app-panel__item--user">
+              <span class="app-panel__item--name">Arthur Wood</span>
+              <img class="app-panel__img" src="img/avatar.jpg" alt="" />
+              <span
+                class="app-panel__link app-panel__link--open-menu open-menu"
+              >
+                <i class="icon icon-down"></i>
+              </span>
+              <ul class="context-menu">
+                <li>
+                  <span class="context-menu__link">
+                    <i class="icon icon-raport"></i>
+                    <span>Report User</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="context-menu__link">
+                    <i class="icon icon-delete"></i>
+                    <span>Block User</span>
+                  </span>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <span class="app-panel__link">
+                <i class="icon icon-bell"></i>
+              </span>
+            </li>
+            <li>
+              <span class="app-panel__link">
+                <i class="icon icon-gift"></i>
+              </span>
+            </li>
+            <li>
+              <span class="app-panel__link">
+                <i class="icon icon-m"></i>
+              </span>
+            </li>
+          </ul>
+        </div>
+        <nav>
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link menu__link--active" href="#">Feed</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Explore</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Discussions</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="add">
+          <i class="icon icon-plus"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="main container">
+      <div class="sidebar">
+        <div class="user">
+          <div class="user__menu">
+            <span class="user__btn btn open-menu" href="#">
+              <i class="icon icon-3dots"></i>
+            </span>
+
+            <ul class="context-menu">
+              <li>
+                <span class="context-menu__link">
+                  <i class="icon icon-raport"></i>
+                  <span>Report User</span>
+                </span>
+              </li>
+              <li>
+                <span class="context-menu__link">
+                  <i class="icon icon-delete"></i>
+                  <span>Block User</span>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="user__img-block">
+            <img class="user__img" src="img/user.jpg" alt="" />
+          </div>
+
+          <div class="user__data">
+            <div class="user__name">
+              <div>Benjamin</div>
+              <div>Clementine</div>
+            </div>
+
+            <div class="user__nickname">@benclementine</div>
+
+            <a class="user__edit" href="#">
+              <i class="user__edit-icon icon icon-edit"></i>
+              <span>Edit Profile</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="follow">
+          <div class="follow__item">
+            <div class="follow__number">45</div>
+            <div class="follow__text">synths</div>
+          </div>
+
+          <div class="follow__item">
+            <div class="follow__number">110</div>
+            <div class="follow__text">followers</div>
+          </div>
+
+          <div class="follow__item">
+            <div class="follow__number">322</div>
+            <div class="follow__text">following</div>
+          </div>
+        </div>
+
+        <div class="user__description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo facere
+          beatae pariatur obcaecati itaque sapiente asperiores suscipit vitae,
+          expedita sint. Obcaecati itaque sapiente asperiores suscipit vitae,
+          expedita sint.
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="access">
+          <span class="access__text">Public</span>
+          <input
+            class="checkbox"
+            type="checkbox"
+            name=""
+            id="access__checkbox"
+          />
+          <label
+            class="access__checkbox-lable checkbox-lable"
+            for="access__checkbox"
+          ></label>
+          <span class="access__text">Privat</span>
+        </div>
+
+        <div class="cards">
+          <div class="cards__item">
+            <div class="cards__text">
+              New air routes thet promise cheap flights in
+            </div>
+
+            <div class="cards__panel">
+              <div class="cards__panel-name">
+                <div class="cards__panel-img"></div>
+                <span>Gregory Watkins</span>
+              </div>
+              <a class="cards__panel-share" href="#">Share</a>
+            </div>
+          </div>
+
+          <div class="cards__item">
+            <div class="cards__text">
+              New air routes thet promise cheap flights in
+            </div>
+
+            <div class="cards__panel">
+              <div class="cards__panel-name">
+                <div class="cards__panel-img"></div>
+                <span>Gregory Watkins</span>
+              </div>
+              <a class="cards__panel-share" href="#">Share</a>
+            </div>
+          </div>
+
+          <div class="cards__item">
+            <div class="cards__panel">
+              <div class="cards__panel-shared-to">
+                <div class="cards__panel-hashtag-title">shared to</div>
+                <div class="cards__panel-hashtag">
+                  #discusionaboutanimgttdds...
+                </div>
+              </div>
+            </div>
+
+            <div class="cards__text cards__text--second">
+              New air routes thet promise cheap flights in
+            </div>
+            <div class="cards__panel">
+              <div class="cards__panel-name">
+                <div class="cards__panel-img"></div>
+                <span>Gregory Watkins</span>
+              </div>
+              <div class="cards__panel-info">
+                <span class="cards__panel-play"
+                  ><i class="icon icon-view"></i>88</span
+                >
+                <span class="cards__panel-like"
+                  ><i class="icon icon-like"></i>24</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="cards__item">
+            <div class="cards__panel">
+              <div class="cards__panel-shared">
+                <i class="icon icon-link"></i>
+                shared via weblinck
+              </div>
+            </div>
+
+            <div class="cards__text cards__text--second">
+              New air routes thet promise cheap flights in
+            </div>
+
+            <div class="cards__panel">
+              <div class="cards__panel-name">
+                <div class="cards__panel-img"></div>
+                <span>Gregory Watkins</span>
+              </div>
+              <div class="cards__panel-info">
+                <span class="cards__panel-play"
+                  ><i class="icon icon-view"></i>88</span
+                >
+                <span class="cards__panel-like"
+                  ><i class="icon icon-like"></i>24</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: -16px;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-basis: 40%;
+    padding: 24px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 16px;
+    box-shadow: $boxShadow;
+  }
+  &__text {
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 44px;
+    margin-top: 32px;
+    padding-bottom: 44px;
+    &--second {
+      margin-top: 8px;
+    }
+  }
+  &__panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 600;
+    &-shared {
+      display: flex;
+    }
+    &-share {
+      font-size: 18px;
+      color: $link_color;
+      text-decoration: none;
+    }
+    &-name {
+      display: flex;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    &-img {
+      width: 24px;
+      height: 24px;
+      background-color: $grey;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 8px;
+    }
+    &-shared-to {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &-hashtag-title {
+      margin-right: 8px;
+    }
+    &-hashtag {
+      background: #ecf1f8;
+      padding: 0 5px;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    &-icon {
+      margin-right: 8px;
+    }
+    &-info {
+      display: flex;
+    }
+    &-play {
+      display: flex;
+      margin-right: 16px;
+      margin-left: 24px;
+    }
+    &-like {
+      display: flex;
+    }
+  }
+}

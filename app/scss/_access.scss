@@ -1,0 +1,12 @@
+.access {
+  display: flex;
+  margin-bottom: 60px;
+  margin-left: 32px;
+  &__text {
+    font-weight: 600;
+    line-height: 22px;
+  }
+  &__checkbox-lable {
+    margin: 0px 30px;
+  }
+}

@@ -1,0 +1,51 @@
+.icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  width: 24px;
+  height: 24px;
+  &-bell {
+    background-image: url(../img/icons/bell.svg);
+  }
+  &-gift {
+    background-image: url(../img/icons/gift.svg);
+  }
+  &-m {
+    background-image: url(../img/icons/m.svg);
+  }
+  &-down {
+    background-image: url(../img/icons/down.svg);
+    opacity: 0.5;
+    top: 4px;
+  }
+  &-3dots {
+    background-image: url(../img/icons/3dots.svg);
+  }
+  &-edit {
+    background-image: url(../img/icons/edit.svg);
+  }
+  &-raport {
+    background-image: url(../img/icons/raport.svg);
+    top: 6px;
+  }
+  &-delete {
+    background-image: url(../img/icons/delete.svg);
+    top: 6px;
+  }
+  &-view {
+    background-image: url(../img/icons/view.svg);
+    top: 0;
+  }
+  &-like {
+    background-image: url(../img/icons/like.svg);
+    top: 0;
+  }
+  &-plus {
+    background-image: url(../img/icons/plus.svg);
+  }
+  &-link {
+    background-image: url(../img/icons/link.svg);
+  }
+}
