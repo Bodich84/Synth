@@ -1,5 +1,3 @@
 ### Synth
 
-Верстка
-
 SCSS, BEM
